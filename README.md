@@ -1,7 +1,5 @@
 # Piglet
 
-## Summary
-
 The Piglet is an Out-of-Band Management (OOBM) device based on a Raspberry Pi (master) and a small microcontroller. It can handle serial communications, USB emulation, and direct control of headers on a slave computer motherboard.
 
 ## Breakdown
@@ -32,6 +30,9 @@ The Teensy will run C code created using Arduino sketches to ease the use of its
 
 ## Goals
 ### Needs
+* Piglet is as portable as possible: attaching to a new system should not be any more work than connecting plugs
+* Minimal hardwiring for both boards (use headers where possible)
+* Raspberry Pi must have no hardwired connections
 * Raspberry Pi accessable via SSH via Ethernet LAN
 * Raspberry Pi can access slave computer via serial
 * Raspberry Pi can access slave computer's power button header
@@ -41,6 +42,7 @@ The Teensy will run C code created using Arduino sketches to ease the use of its
 * Teensy can send key presses over USB to slave computer
 * Piglet power button resets both boards
 * Piglet power status LED shows status for both boards
+* `pigletctl` should be as small as possible or should rely on as few libraries as possible (depending on language)
 
 ### Wants
 * Piglet access over a 3G/4G modem in the case of Internet service loss (costs money unless a pay as you go solution can be found)
