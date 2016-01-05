@@ -1,0 +1,59 @@
+Power:,
+,Wall Power Outlet
+,Wall adaptor
+,DC jack
+,Protoboard
+,Raspberry Pi B+ / Teensy3.2
+,
+Ethernet Extension:,
+,Raspberry Pi B+
+,Male ethernet with leads
+,Protoboard?
+,Ethernet breakout board 
+,Female Ethernet connector
+,Ethernet Cable
+,Router
+,
+Serial Console:,
+,Raspberry Pi B+
+,F/F Jumper wire
+,Male header
+,Logic level converter
+,F to Bare wire Jumper
+,Serial connector
+,Serial cable
+,Serial header adaptor in server
+,
+Keyboard Emulation (USB):,
+,Raspberry Pi B+
+,F/F Jumper wire
+,Male header
+,Teensy 3.2 (use pads on bottom)
+,FemaleMicro USB breakout
+,Micro USB cable
+,USB port on server
+,
+Power Control:,
+,Raspberry Pi B+
+,F/F Jumper wire
+,Male header
+,Chassis connector
+,Bulk ethernet cable (use 6 of 8 wires)
+,Female jumper ends
+,Server motherboard
+,
+Power/Reset Switches:
+,Raspberry Pi B+ (use male header) / Teensy 3.2 (use bottom pads)
+,F/F jumper wire / Female-ended jumper hookup
+,Male header
+,Protoboard
+,Power Button (Momentary SPST)
+,
+Power Indicated LED:
+,Raspberry Pi B+ (use 3.3V pin) / Teensy 3.2 (use 3.3V pin)
+,F/F jumper wire
+,Male header
+,Protoboard
+,SN7408 (AND) or 2x SN7400 (NAND) or equivalent
+,Resistor (calculate the value based on LED specs)
+,Panel mount LED (or use illuminated pushbutton)
