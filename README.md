@@ -45,7 +45,7 @@ The Teensy will run C code created using Arduino sketches to ease the use of its
 * `pigletctl` should be as small as possible or should rely on as few libraries as possible (depending on language)
 
 ### Wants
-* Piglet access over a 3G/4G modem in the case of Internet service loss (costs money unless a pay as you go solution can be found)
+* Piglet access over a 3G/4G modem with an external antenna in the case of Internet service loss (costs money unless a pay as you go solution can be found)
 * Web dashboard for running commands (power control, serial, etc) and checking status with various access control
 * Configure Teensy in some way that allows both HID connection to slave computer and a USB connection to the Pi flashing new firmware for future features
 * Interface with the current temperture display on slave computer to get values or add in dedicated temperture sensors for Piglet
