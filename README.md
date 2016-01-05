@@ -32,7 +32,7 @@ The Teensy will run C code created using Arduino sketches to ease the use of its
 ### Needs
 * Piglet is as portable as possible: attaching to a new system should not be any more work than connecting plugs
 * Minimal hardwiring for both boards (use headers where possible)
-* Raspberry Pi must have no hardwired connections
+* Raspberry Pi must have no soldered connections
 * Raspberry Pi accessable via SSH via Ethernet LAN
 * Raspberry Pi can access slave computer via serial
 * Raspberry Pi can access slave computer's power button header
