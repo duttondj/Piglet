@@ -1,4 +1,5 @@
 # Piglet
+<img src="https://cdn.rawgit.com/duttondj/Piglet/master/blockdiagram.svg" alt="Blockdiagram" height="350">
 
 The Piglet is an Out-of-Band Management (OOBM) device based on a Raspberry Pi (master) and a small microcontroller. It can handle serial communications, USB emulation, and direct control of headers on a slave computer motherboard.
 
