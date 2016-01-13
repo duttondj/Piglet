@@ -37,7 +37,7 @@ def sendKey(value):
 # Ask for input and check if not null
 while True:
 	var = input("Keypress to send: ")
-	if not var:
+	if var:
 		continue
 
 # Output var and any error code from I2C write
