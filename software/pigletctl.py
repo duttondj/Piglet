@@ -38,7 +38,7 @@ def sendKey(value):
 		error codes generated from write_byte. The docs really suck
 		for this so who knows what it will return.
 	"""
-	ascii = [ord(ch for word in value for ch in word)]
+	ascii = [ord(ch) for word in value for ch in word]
 	return bus.write_i2c_block_byte(address, data_reg, value)
 	
 # Ask for input and check if not null
