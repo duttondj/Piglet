@@ -1,0 +1,10 @@
+20160108:
+	Got everything in the mail.
+	Soldered header and figured out wiring for power and i2c.
+
+20160110:
+	Built code for the teensy. So far all it does is just send ASCII codes via USB keyboard. It can handle single and multibyte recieves which useful for if sending a whole string instead of individual characters.
+
+20160112:
+	Got the wifi adaptor working so I can work on this thing where ever I want to (very helpful).
+	Started some basic python for sending i2c as thats the most important thing right now other. The other stuff is just hardware connections so ideally that should be fast. Not much time left in the week.
