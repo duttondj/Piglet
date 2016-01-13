@@ -39,7 +39,8 @@ def sendKey(value):
 		for this so who knows what it will return.
 	"""
 	ascii = [ord(ch) for word in value for ch in word]
-	return bus.write_i2c_block_byte(address, data_reg, value)
+	bus.write_i2c_block_data(address, data_reg, ascii)
+	return 0
 	
 # Ask for input and check if not null
 while True:
